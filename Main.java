@@ -22,15 +22,19 @@ class Main {
         int x2 = (-b+p2)/2*a;
 
         int x0 = -b/2*a;
-        System.out.println("Delta: " + delta);
+
+        System.out.println("===== DELTA =====");
+        System.out.println("     Delta: " + delta);
     
         if(delta<0){
           System.out.println("Delta mniejsza od zera, niema miejsc zerowych" );
         } else if(delta == 0){
           System.out.println("x0: " + x0);
         } else{
-          System.out.println("x1: " + x1);
-          System.out.println("x2: " + x2);
+          System.out.println("==== MIEJSCA ZEROWE ====");
+          System.out.println("     x1: " + x1);
+          System.out.println("     x2: " + x2);
+          System.out.println("=====");
         }
   }
 }
